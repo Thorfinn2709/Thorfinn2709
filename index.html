@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Midtown Dental Care - Premium general and cosmetic dentistry in NYC. Accepting new patients.">
+    <title>Midtown Dental Care | NYC Dentist</title>
+    
+    <!-- Google Fonts - Modern Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- BoxIcons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class='bx bx-plus-medical'></i></span>
+                <span class="logo-text"><span class="logo-bold">Midtown</span> Dental</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="btn btn-primary btn-nav-mobile">Book Appointment</a>
+            </div>
+            <a href="#contact" class="btn btn-primary d-desktop" id="navCta">Book Appointment</a>
+            <button class="hamburger d-mobile" id="hamburger" aria-label="Menu">
+                <i class='bx bx-menu'></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Animated Background Blobs -->
+        <div class="hero-blobs">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+
+        <div class="hero-image-container">
+            <img src="images/hero.png" alt="Modern Dental Clinic in NYC" class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content reveal">
+            <div class="hero-badge">
+                <i class='bx bx-check-shield'></i>
+                <span>Trusted by 5,000+ NYC Patients</span>
+            </div>
+            <h1>Quality Dental Care <br> <span class="gradient-text">in Midtown NYC</span></h1>
+            <p class="hero-text">We provide professional general and cosmetic dentistry for the whole family in a comfortable, friendly environment.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary btn-glow">
+                    <span>Book Appointment</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+                <a href="#services" class="btn btn-glass">
+                    <span>Our Services</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-bar">
+        <div class="stats-grid reveal">
+            <div class="stat-item">
+                <span class="stat-number" data-target="5000">0</span><span class="stat-suffix">+</span>
+                <p>Happy Patients</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="25">0</span><span class="stat-suffix">+</span>
+                <p>Expert Dentists</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="99">0</span><span class="stat-suffix">%</span>
+                <p>Patient Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Info Section -->
+    <section class="info-bar">
+        <div class="info-grid reveal">
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class='bx bx-calendar-check'></i>
+                </div>
+                <div>
+                    <h3>Easy Booking</h3>
+                    <p>Schedule online 24/7</p>
+                </div>
+                <i class='bx bx-chevron-right info-arrow'></i>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class='bx bx-map'></i>
+                </div>
+                <div>
+                    <h3>Central NYC</h3>
+                    <p>Midtown Manhattan</p>
+                </div>
+                <i class='bx bx-chevron-right info-arrow'></i>
+            </div>
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class='bx bx-award'></i>
+                </div>
+                <div>
+                    <h3>Top Rated</h3>
+                    <p>5-Star Excellence</p>
+                </div>
+                <i class='bx bx-chevron-right info-arrow'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header reveal">
+            <p class="subtitle"><span class="subtitle-line"></span>OUR EXPERTISE<span class="subtitle-line"></span></p>
+            <h2>Comprehensive <span class="gradient-text">Dental Care</span></h2>
+            <p class="section-desc">We offer a full range of dental services to meet your needs, from routine check-ups to complete smile transformations.</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card reveal" style="--delay: 0.1s">
+                <div class="service-icon-wrapper">
+                    <div class="service-icon">
+                        <i class='bx bx-smile'></i>
+                    </div>
+                </div>
+                <h3>Cosmetic Dentistry</h3>
+                <p>Teeth whitening, veneers, and smile makeovers to help you feel confident.</p>
+                <a href="#contact" class="learn-more">
+                    <span>Learn More</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-card reveal" style="--delay: 0.2s">
+                <div class="service-icon-wrapper">
+                    <div class="service-icon">
+                        <i class='bx bx-shield-plus'></i>
+                    </div>
+                </div>
+                <h3>General & Preventive</h3>
+                <p>Routine check-ups, cleanings, and x-rays to keep your teeth healthy.</p>
+                <a href="#contact" class="learn-more">
+                    <span>Learn More</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card reveal" style="--delay: 0.3s">
+                <div class="service-icon-wrapper">
+                    <div class="service-icon">
+                        <i class='bx bxs-component'></i>
+                    </div>
+                </div>
+                <h3>Invisalign & Braces</h3>
+                <p>Clear aligners and orthodontic options for straighter teeth.</p>
+                <a href="#contact" class="learn-more">
+                    <span>Learn More</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card reveal" style="--delay: 0.4s">
+                <div class="service-icon-wrapper">
+                    <div class="service-icon">
+                        <i class='bx bx-heart'></i>
+                    </div>
+                </div>
+                <h3>Dental Implants</h3>
+                <p>Permanent tooth replacement solutions that look and feel natural.</p>
+                <a href="#contact" class="learn-more">
+                    <span>Learn More</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image reveal">
+                <img src="images/teeth.png" alt="Perfect Smile Cosmetic Dentistry">
+                <div class="about-float-card">
+                    <i class='bx bx-trophy'></i>
+                    <div>
+                        <h4>Award Winning</h4>
+                        <p>Best NYC Dental 2025</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text reveal">
+                <p class="subtitle"><span class="subtitle-line"></span>ABOUT OUR PRACTICE</p>
+                <h2>A Friendly, <span class="gradient-text">Local Dentist</span></h2>
+                <p>Finding a dentist in the city can be stressful. At Midtown Dental Care, we focus on making your visit as straightforward and comfortable as possible.</p>
+                <p>Our team has years of experience in general health, cosmetic procedures, and patient care. We accept most major insurances and offer flexible scheduling.</p>
+                
+                <ul class="check-list">
+                    <li>
+                        <div class="check-icon"><i class='bx bx-check'></i></div>
+                        <span>Most major insurances accepted</span>
+                    </li>
+                    <li>
+                        <div class="check-icon"><i class='bx bx-check'></i></div>
+                        <span>Friendly and experienced staff</span>
+                    </li>
+                    <li>
+                        <div class="check-icon"><i class='bx bx-check'></i></div>
+                        <span>Convenient midtown location</span>
+                    </li>
+                </ul>
+
+                <a href="#contact" class="btn btn-primary btn-glow" style="margin-top: 2rem;">
+                    <span>Get Started</span>
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header reveal">
+            <p class="subtitle"><span class="subtitle-line"></span>PATIENT REVIEWS<span class="subtitle-line"></span></p>
+            <h2>What Our <span class="gradient-text">Patients Say</span></h2>
+            <p class="section-desc">Hear from the thousands of patients who trust us with their smiles.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal" style="--delay: 0.1s">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                </div>
+                <p class="review-text">"I've always been terrified of the dentist, but the team here made me feel completely at ease. My new veneers look absolutely incredible. Highly recommend to anyone in NYC!"</p>
+                <div class="patient-info">
+                    <img src="images/patient_1.png" alt="Sarah M." class="patient-img">
+                    <div>
+                        <h4>Sarah M.</h4>
+                        <p>Cosmetic Patient</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card featured reveal" style="--delay: 0.2s">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                </div>
+                <p class="review-text">"Fast, efficient, and painless. I came in for a routine cleaning and check-up, and they were extremely thorough. The absolute best dental experience I've ever had."</p>
+                <div class="patient-info">
+                    <img src="images/patient_2.png" alt="James L." class="patient-img">
+                    <div>
+                        <h4>James L.</h4>
+                        <p>General Patient</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal" style="--delay: 0.3s">
+                <div class="quote-icon"><i class='bx bxs-quote-alt-left'></i></div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                </div>
+                <p class="review-text">"Got my Invisalign done here. The staff is super friendly, the office is spotless, and my teeth have never looked better. They explained everything perfectly."</p>
+                <div class="patient-info">
+                    <img src="images/patient_3.png" alt="Emily R." class="patient-img">
+                    <div>
+                        <h4>Emily R.</h4>
+                        <p>Invisalign Patient</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <p class="subtitle"><span class="subtitle-line"></span>CONTACT US</p>
+                <h2>Ready to <span class="gradient-text-light">book?</span></h2>
+                <p class="contact-desc">Give us a call or send a request online to schedule your next check-up.</p>
+                
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class='bx bx-map'></i></div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 5th Avenue, Suite 400<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class='bx bx-phone'></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>(212) 555-0198</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon"><i class='bx bx-envelope'></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@midtowndentalnyc.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper reveal">
+                <form id="bookingForm" class="booking-form">
+                    <h3>Request an Appointment</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service of Interest</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service...</option>
+                            <option value="cosmetic">Cosmetic Dentistry</option>
+                            <option value="general">General Dentistry</option>
+                            <option value="ortho">Orthodontics / Invisalign</option>
+                            <option value="implants">Dental Implants</option>
+                            <option value="consultation">New Patient Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Notes</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Tell us how we can help..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-glow" id="submitBtn">
+                        <span>Submit Request</span>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                    <div id="formSuccess" class="form-success" style="display: none;">
+                        <i class='bx bx-check-circle'></i> Thank you! We will contact you shortly to confirm your booking.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i class='bx bx-plus-medical'></i></span>
+                        <span class="logo-text"><span class="logo-bold">Midtown</span> Dental</span>
+                    </a>
+                    <p>Providing premium dental care in the heart of NYC since 2010.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <a href="#services">Cosmetic Dentistry</a>
+                    <a href="#services">General Dentistry</a>
+                    <a href="#services">Invisalign</a>
+                    <a href="#services">Dental Implants</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Hours</h4>
+                    <p>Mon - Fri: 8am - 6pm</p>
+                    <p>Saturday: 9am - 3pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Midtown Dental Care. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
